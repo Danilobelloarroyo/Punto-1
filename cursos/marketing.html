@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="../css/cursos.css">
+    <title>Mis Cursos</title>
+</head>
+<body>
+    
+    <DIV class="card2 contenedor ">
+        <!--contenedor para menú-->
+        <div id="menu" class="contenedor-ancho  ">
+            <nav class="peq-span-2">
+                <a class="active" href="../index.html"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="16" fill="currentColor" class="bi bi-arrow-90deg-left" viewBox="5 0 16 16">
+                    <path fill-rule="evenodd" d="M1.146 4.854a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H12.5A2.5 2.5 0 0 1 15 6.5v8a.5.5 0 0 1-1 0v-8A1.5 1.5 0 0 0 12.5 5H2.707l3.147 3.146a.5.5 0 1 1-.708.708l-4-4z"/>
+                  </svg> Regresar</a>
+            </nav>
+
+        </div> 
+<!-- cursos disponibles  -->
+        <div class="container mt-5" >
+            <div class="row ">
+              <div class="col-md-4 mb-4 ">
+                <div class="card">
+                  <img src="../img/Mark/curse1.jpg" class="card-img-top" alt="Curso 1">
+                  <div class="card-body" >
+                    <h4 class="card-title">Desarrolla tu creatividad en el mundo de la publicidad</h4>
+                    <p class="card-text">En este curso de creatividad aprenderás los secretos de la comunicación publicitaria.</p>
+                    <p class="card-text1">Fecha de inicio: 04/05/2023</p>
+                    <p class="card-text2"> Estás cursando este curso
+                      <input type="checkbox" checked>
+                    </p>
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#curso1Modal1">Ver detalles</button>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-md-4 mb-4">
+                <div class="card">
+                  <img src="../img/Mark/curse2.jpg" class="card-img-top" alt="Curso 2">
+                  <div class="card-body">
+                    <h4 class="card-title">Crea un blog y Vive de tu Blog</h4>
+                    <p class="card-text">Crea un blog para desarrollar tu negocio con un método a través de la
+                       experiencia de expertos.</p>
+                    <p class="card-text1">Fecha de inicio: 15/11/2023</p>
+                    <p class="card-text2">
+                      Activado
+                      <input type="checkbox" checked>
+                    </p>
+                     <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#curso1Modal2">Ver detalles</button>
+                  </div>
+                </div>
+              </div>
+        
+    </DIV>
+
+
+<hr>
+<!-- PROXIMOS CURSOS ----------------------------- -->
+Curses
+<div class="container mt-4">
+  <div class="row">
+    <div class="col">
+      <div class="card">
+        <div class="card-body2">
+          <img src="../img/Diseño/proximo1.jpg" class="card-img-top" alt="Curso 1">
+          <div class="hola">
+            <h5 class="card-title">MIDJOURNEY: crea tus imágenes con IA </h5>
+            <p class="card-text">MidJourney es la herramienta definitiva para generar imágenes mediante inteligencia artificial. El principio es simple: usted describe una escena con unas pocas palabras y Midjourney genera mágicamente 4 imágenes para usted. Sencillo y muy adictivo.</p>
+          </div>
+          <p id="p"><i>Próximamente</i></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>  <br>
+
+<div class="container mt-4">
+  <div class="row">
+    <div class="col">
+      <div class="card">
+        <div class="card-body2">
+          <img src="../img/Diseño/proximo2.jpg" class="card-img-top" alt="Curso 1">
+          <div class="hola">
+            <h5 class="card-title">Iniciación a After Effects desde cero</h5>
+            <p class="card-text">Iniciación a After Effects desde cero es un curso Videotutorial, paso a paso, que te permitirá aprender las técnicas y funcionalidades de After Effects desde el principio.</p>
+          </div>
+          <p id="p"><i>Próximamente</i></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>  <br>
+
+
+
+<!--FIN  PROXIMOS CURSOS ----------------------------- -->
+
+
+  <!-- Modales para cada curso 1 -->
+  <div class="modal fade" id="curso1Modal1" tabindex="-1" aria-labelledby="curso1ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="curso1ModalLabel">>Desarrolla tu creatividad en el mundo de la publicidad</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p  class="card-text1">Fecha de inicio: 04/05/2023</p>
+          <p  class="card-text1">Fecha de finalización: 22/10/2023</p>
+          <p class="card-text">
+            En este curso aprenderás los secretos creatividad de la 
+            comunicación publicitaria. Sinopsis: Los participantes de 
+            este curso conocerán el mundo de la publicidad y su clave de 
+            dentro. Ellos mismos se convierten en agencias de publicidad y 
+            llevar a cabo una campaña de comunicación para una empresa. Autor:
+            Franco Soldi (Fundador y CEO YPD capitán) Metas: Desarrollar la creatividad. 
+            Aprender a diseñar y presentar una campaña publicitaria.
+          </p>
+          <p><strong>Video sobre el curso:</strong>
+            <iframe width="460" height="260" src="https://www.youtube.com/embed/H_qV7oH1pdc?si=rdDTUbqH15YzqpKQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </p><br>
+          <p><strong>Objetivos del curso:</strong>
+            <li>Aprender a diseñar y presentar una campaña de publicidad</li>
+            <li>Desarrollar habilidades de comunicación y marketing.</li>
+            <li>Desarrollar la creatividad, el trabajo en equipo y la comunicación</li>
+          </p><br><br>
+          <p><strong>Formulario de contacto para solicitar información:</strong> 
+            <div class="container2">
+                <form action="index.html" method="get">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+              
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+              
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" required></textarea>
+              
+                    <input type="submit" value="Enviar">
+                  </form>
+              </div>
+          </p>
+          <p><strong>Temas del curso:</strong>
+            <li> Creatividad</li>
+            <li>Logistica Creativa</li>
+          </p><br><br>
+          <p id="redes">
+            <a href="https://www.facebook.com/sharer" target="_blank">Compartir en Facebook </a>
+            <a href="https://github.com/"  target="_blank"> Compartir en GitHub  </a>
+            <a href="whatsapp://send?text=¡Echa un vistazo a esta página increíble! https://www.youtube.com/embed/H_qV7oH1pdc?si=rdDTUbqH15YzqpKQ" target="_blank">Compartir en WhatsApp</a>
+
+        </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+</div>
+
+ <!-- Modales para cada curso 2 -->
+ <div class="modal fade" id="curso1Modal2" tabindex="-1" aria-labelledby="curso1ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="curso1ModalLabel">Crea un blog y Vive de tu Blog</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="card-text1">Fecha de inicio: 15/11/2023</p>
+          <p class="card-text1">Fecha de finalización: 23/11/2023</p>
+          <p class="card-text">
+            El curso "Crea un Blog y Vive de tu Propio Blog" es un curso que define un método que han seguido profesionales que 
+            hoy en día viven de su propio blog y de escribir y compartir contenidos en su blog
+            e incluyen vídeos, textos, presentaciones y enlaces que te permitirán conseguir el mejor resultado. <br>
+            El curso está estructurado desde el inicio con un método de negocio, con la estructura necesaria para comenzar a 
+            trabajar con un blog, con las pautas clave de cualquier negocio desde el PARA QUÉ hasta su monetización, pasando 
+            por una definición estratégica, generación de tráfico masivo y herramientas de análisis que permiten al 
+            estudiante seguir paso a paso el método para hacer un blog del que pueda llegar a vivir, como un negocio propio.
+          </p><br>
+
+          <p><strong>Video sobre el curso:</strong>
+            <iframe width="460" height="260" src="https://www.youtube.com/embed/ixS4-i4MUGU?si=yulbA7HByc7rI_15" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </p><br>
+          <p><strong>Objetivos del curso:</strong>
+            <li>Pensarás tu blog como un negocio desde el principio</li>
+            <li>Trabajarás con tu blog de forma profesional, con un método definido</li>
+          </p><br><br>
+          <!-- fORMULARIO  -->
+          <p><strong>Formulario de contacto para solicitar información:</strong>
+            <div class="container2">
+                <form action="index.html" method="get">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+              
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+              
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" required></textarea>
+              
+                    <input type="submit" value="Enviar">
+                  </form>
+              </div>
+          </p><br><br>
+          
+          <p><strong>Temas del curso:</strong> 
+            <li>Sistemas de Blog</li>
+            <li>Tercer sistema de Blogs</li>
+          </p><br><br>
+          <p id="redes">
+            <a href="https://www.facebook.com/" target="_blank">Compartir en Faceboock</a>
+            <a href="https://github.com/"  target="_blank">Compartir en GitHub</a>
+            <a href="whatsapp://send?text=¡Echa un vistazo a esta página increíble!  https://www.youtube.com/embed/ixS4-i4MUGU?si=yulbA7HByc7rI_15" target="_blank">Compartir en WhatsApp</a>
+        </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+</body>
+</html>

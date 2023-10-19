@@ -1,0 +1,115 @@
+.card-text {
+    text-align: justify;
+    color: rgb(0, 0, 0);
+}
+.card-title{
+    color: rgb(0, 0, 0);
+    padding-bottom: 3%;
+}
+
+.card-text1{
+    text-align: justify;
+    color: rgb(216, 130, 0);
+    font-size: 90%;
+
+}
+
+.card-text2{
+    text-align: justify;
+    color: rgb(55, 55, 55);
+    font-size: 80%;
+}
+/*  FORMULARIO*/
+
+.container2 {
+    max-width: 600px;
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+
+  form {
+    margin-top: 20px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  textarea {
+    height: 150px;
+  }
+
+  input[type="submit"] {
+    background-color: #00ccff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #0099cc;
+  }
+
+
+  /*    PROXIMAMENTE*/
+
+.card-body2{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: auto;
+  padding: 3%;
+}
+
+
+.card-body2 p{
+
+  font-size: 100%;
+}
+
+.card-body2 p i{
+  padding-left: 60%;
+}
+
+#p{
+  text-align: center;
+  padding-top: 25%;
+  font-size: 100%;
+}
+
+.hola{
+  padding-left: 2%;
+  
+}
+
+.col{
+  font-size: 70%;
+}
+
+
+
+.col h4{
+  font-size: 120%;
+  color: #000000;
+}
